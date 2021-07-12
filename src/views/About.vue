@@ -1,13 +1,9 @@
 <template>
   <div>
-    {{}}
+    2121
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup lang="ts"></script>
 
-</script>
-
-<style scoped>
-  
-</style>
+<style scoped></style>
