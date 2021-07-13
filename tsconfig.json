@@ -10,7 +10,9 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "noUnusedParameters":false,
     "sourceMap": true,
+    "noUnusedLocals": false,
     "baseUrl": ".",
     "types": [
       "webpack-env"

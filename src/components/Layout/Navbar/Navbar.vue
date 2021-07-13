@@ -20,7 +20,7 @@ import PersonalInfo from "./PersonalInfo.vue";
   white-space: nowrap;
   font-size: 1.5em;
   margin-right: 0.5em;
-  display: inline-block;
+  float: left;
 }
 
 .nav-logo:first-letter {

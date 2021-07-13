@@ -1,8 +1,14 @@
 <template>
   <div class="menu-div">
-    <el-menu :default-active="menuIndex" :router="true" class="menu-list" mode="horizontal" @select="handleSelect">
+    <el-menu
+      :default-active="menuIndex"
+      :router="true"
+      class="menu-list"
+      mode="horizontal"
+      @select="handleSelect"
+    >
       <el-menu-item index="/home">论坛</el-menu-item>
-      <el-menu-item index="/wiki">百科</el-menu-item>
+      <el-menu-item index="/wiki">百科 </el-menu-item>
       <el-menu-item index="/setting">设置</el-menu-item>
       <el-menu-item index="/admin">管理</el-menu-item>
       <el-menu-item index="/about">关于</el-menu-item>
