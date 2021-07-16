@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <el-button type="text" @click="regist">注册</el-button>
@@ -10,10 +9,10 @@
 import router from "@/router";
 
 const regist = function() {
-  router.push({path:'/signin'})
+  router.push({ path: "/signup" });
 };
 const login = function() {
-  router.push({path:'/signup'})
+  router.push({ path: "/signin" });
 };
 </script>
 
