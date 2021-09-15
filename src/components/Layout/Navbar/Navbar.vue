@@ -9,20 +9,12 @@
 </template>
 
 <script setup lang="ts">
-import Menu from "./Menu.vue";
-import PersonalInfo from "./PersonalInfo.vue";
+import Menu from './Menu.vue'
+import PersonalInfo from './PersonalInfo.vue'
+const a = 1
 </script>
 
-<style scoped>
-.nav-logo {
-  color: #000;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 1.5em;
-  margin-right: 0.5em;
-  float: left;
-}
-
+<style lang="scss" scoped>
 .nav-logo:first-letter {
   color: #ee2433 !important;
   font-weight: 700;
@@ -32,11 +24,19 @@ import PersonalInfo from "./PersonalInfo.vue";
   padding: 0 80px;
   border-bottom: 1px solid #ddd;
   line-height: 49px;
-}
-.personal-info {
-  float: right;
-}
-.menu-component {
-  float: left;
+  display: flex;
+  .nav-logo {
+    color: #000;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+  }
+  .menu-component {
+    flex: 1;
+  }
+  .personal-info {
+    width: 200px;
+  }
 }
 </style>

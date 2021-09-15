@@ -1,0 +1,15 @@
+{
+  "printWidth": 120,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "htmlWhitespaceSensitivity": "ignore",
+  "endOfLine": "auto",
+  "vue/require-default-prop": [
+    "error",
+    {
+      "required": true,
+      "non-required": false
+    }
+  ]
+}

@@ -28,15 +28,15 @@ const menuIndex = ref(routerPath.fullPath);
 <style lang="scss" scoped>
 .menu-div {
   margin-left: 16px;
-  ::v-deep .el-menu--horizontal > .el-menu-item {
+  :deep .el-menu--horizontal > .el-menu-item {
     height: 49px;
     line-height: 49px;
   }
-  ::v-deep .el-menu--horizontal > .el-submenu .el-submenu__title {
+  :deep .el-menu--horizontal > .el-submenu .el-submenu__title {
     height: 49px;
     line-height: 49px;
   }
-  ::v-deep .el-menu.el-menu--horizontal {
+  :deep .el-menu.el-menu--horizontal {
     border: 0;
   }
 }
